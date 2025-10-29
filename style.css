@@ -1,0 +1,14 @@
+body {
+    font-family: Times, serif;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-image: url("images/fond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h1 {
+    background-color: rgb(33, 216, 216);
+    text-align: center;
+    padding: 0.5%;
+}
