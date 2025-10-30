@@ -17,7 +17,7 @@ body {
     text-align: center;
     font-style: italic;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 25px;
     color: aquamarine;
 }
 
@@ -26,9 +26,35 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    background-color: rgb(122, 181, 248);
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
     margin: 0 auto;
-    padding: 5%;
+    padding: 3.8%;
     width: 80%;
-    gap: 2rem;
+    gap: 1em;
+}
+
+.citation p {
+    flex: 1 1 0;
+    min-width: 0;
+    font-size: x-large;
+    color: black;
+}
+
+.génie {
+    text-align: center;
+}
+
+.génie p{
+    font-size: 22px;
+    width: 35em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    text-align: center;
+    line-height: 1.4;
+    margin-left: 25%;
+}
+
+.génie p:hover {
+    transform: scale(1.1);
 }
