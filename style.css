@@ -17,7 +17,7 @@ body {
     text-align: center;
     font-style: italic;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 18px;
     color: aquamarine;
 }
 
@@ -45,7 +45,7 @@ body {
     text-align: center;
 }
 
-.génie p{
+.génie p {
     font-size: 22px;
     width: 35em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -53,6 +53,11 @@ body {
     text-align: center;
     line-height: 1.4;
     margin-left: 25%;
+}
+
+.génie h2 {
+    text-align: center;
+    color: aqua;
 }
 
 .génie p:hover {
